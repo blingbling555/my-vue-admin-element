@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <svg-icon iconClass="yonghu"></svg-icon>
     <router-view/>
   </div>
 </template>
@@ -10,5 +9,4 @@
 #app {
   height: 100%;
 }
-
 </style>
