@@ -18,7 +18,8 @@ npm run build
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-
+### 相关
+相关接口：https://github.com/blingbling555/node-admin
 
 # 2、部分知识点
 
@@ -46,11 +47,13 @@ Vue.use(commonComponent)
 
 手把手带你优雅使用图表icon https://juejin.im/post/59bb864b5188257e7a427c09 ，更优雅的用法
 
-## 2.2、登录页面
+
+
+## 2.2、权限
 
 
 
-#### 思路
+
 
 
 

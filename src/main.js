@@ -15,6 +15,9 @@ import './assets/icon'
 import commonComponent from './utils/commonComponents';
 Vue.use(commonComponent)
 
+// 全局路由守卫
+import './permission';
+
 Vue.config.productionTip = false
 
 new Vue({

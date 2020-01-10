@@ -44,8 +44,8 @@ data() {
     }
 return {
   loginForm:{
-      username:"",
-      password:""
+      username:"admin",
+      password:"123456"
   },
   rules:{
       username: [{ required: true, trigger: 'blur', validator: validateUsername }],
@@ -56,9 +56,12 @@ return {
 computed: {},
 watch: {},
 methods: {
- onSubmit(loginForm) {
+  onSubmit(loginForm) {
      this.$refs[loginForm].validate((valid) => {
           if (valid) {
+            this.$store.dispatch('user/login', this.loginForm).then(()=>{
+              this.$router.replace('/')
+            })
             
           } 
           else {
